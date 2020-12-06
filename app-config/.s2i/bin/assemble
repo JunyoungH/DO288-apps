@@ -21,6 +21,7 @@ fi
 
 echo "---> Installing application source..."
 cp -Rf /tmp/src/. ./
+mkdir /opt/app-root/secure
 cp myapp.sec /opt/app-root/secure/myapp.sec
 
 echo "---> Building application from source..."
